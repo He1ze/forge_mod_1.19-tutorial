@@ -1,0 +1,6 @@
+the .json file here changes the the name of the item in the inventory.
+
+example:
+  "block.tutorialmod.zircon_block" : "Zircon Block",
+
+basically reference the main class (item or block), the class where the object is registered, then the name of the block (this is the string passed in.)

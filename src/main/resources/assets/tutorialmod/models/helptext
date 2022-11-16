@@ -1,0 +1,27 @@
+in the respective directories, add the .json files for your item/block.
+this changes the texture of the items
+example text for block .json file
+
+YOU NEED .json for both block & item for blocks
+
+
+this is the texture when it's placed.
+{
+  "parent": "block/cube_all",
+  "textures" : {
+    "all": "tutorialmod:block/zircon_ore"
+  }
+}
+
+this is the texture of the block when its in the hand.
+{
+  "parent": "tutorialmod:block/zircon_block"
+}
+-------------------------------------------------------------------
+the .json is different for items
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tutorialmod:item/zircon"
+  }
+}

@@ -1,0 +1,8 @@
+no idea what this directory is for
+
+but this is the .json text
+{
+  "variants": {
+    "": { "model": "tutorialmod:block/zircon_block"}
+  }
+}
